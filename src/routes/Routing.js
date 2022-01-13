@@ -9,18 +9,9 @@ const Routing = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-                path="https://l3ossdevz.github.io/react-router-gh-pages/#/about"
-                element={<About />}
-            />
-            <Route
-                path="https://l3ossdevz.github.io/react-router-gh-pages/#/portfolio"
-                element={<Portfolio />}
-            />
-            <Route
-                path="https://l3ossdevz.github.io/react-router-gh-pages/#/hello/:name"
-                element={<SayHi />}
-            />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/hello/:name" element={<SayHi />} />
         </Routes>
     )
 }
