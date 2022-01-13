@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'development') {
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter basename={'/react-router-gh-pages'}>
+        <HashRouter>
             <App />
         </HashRouter>
     </React.StrictMode>,
