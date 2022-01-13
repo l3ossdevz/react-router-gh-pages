@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'development') {
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={'/react-router-gh-pages'}>
             <App />
         </BrowserRouter>
     </React.StrictMode>,
