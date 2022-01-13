@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import 'bulma/css/bulma.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
@@ -17,9 +17,9 @@ if (process.env.NODE_ENV !== 'development') {
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter basename={'/react-router-gh-pages'}>
+        <BrowserRouter basename={'/react-router-gh-pages'}>
             <App />
-        </HashRouter>
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
 )
