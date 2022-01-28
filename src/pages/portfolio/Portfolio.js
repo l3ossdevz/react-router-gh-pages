@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Portfolio = () => {
     return (
@@ -11,7 +11,7 @@ const Portfolio = () => {
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default Portfolio
+export default Portfolio;

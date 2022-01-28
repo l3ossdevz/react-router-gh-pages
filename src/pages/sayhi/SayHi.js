@@ -1,8 +1,8 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const SayHi = () => {
-    const params = useParams()
+    const params = useParams();
     return (
         <section className="hero is-large is-default">
             <div className="hero-body">
@@ -11,7 +11,7 @@ const SayHi = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default SayHi
+export default SayHi;
